@@ -2,6 +2,10 @@
 
 WeChat development tools module.
 
+>工具库内部会对获取到的 `access_token` 和 `jsapi_ticket` 进行缓存（若配置了`redis`则缓存到Redis中，反之则缓存到内存中），过期将自动刷新，工作流程图如下所示：
+
+![Flow Chart](flow_chart.png)
+
 ## Install
 
 ```sh
@@ -29,8 +33,6 @@ utils.access_token('myApp').then(access_token => console.log(access_token));
 ```
 
 ## API
-
->工具库内部会对获取到的 `access_token` 和 `jsapi_ticket` 进行缓存（若配置了`redis`则缓存到Redis中，反之则缓存到内存中），过期将自动刷新。
 
 #### `utils.config(opts)`
 
