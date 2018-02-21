@@ -1,0 +1,16 @@
+{
+  "name": "wechat-utils",
+  "version": "1.0.0",
+  "description": "WeChat development tools module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Daniel Yin <yinfxs@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ioredis": "^3.2.2",
+    "superagent": "^3.8.2"
+  }
+}
