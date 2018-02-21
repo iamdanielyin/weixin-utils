@@ -40,4 +40,4 @@ utils.access_token('myApp').then(access_token => console.log(access_token));
 
 #### `utils.jsapi_ticket(appKey)`
 
-获取`jsapi_ticket`，同样需要传入一个`appKey`，返回值也为一个`Promise`对象。
+获取`jsapi_ticket`，同样需要传入一个`appKey`，返回值也为一个`Promise`对象。
