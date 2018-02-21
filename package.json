@@ -1,14 +1,28 @@
 {
   "name": "weixin-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WeChat development tools module.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinfxs/weixin-utils.git"
+  },
+  "keywords": [
+    "weixin",
+    "wechat",
+    "service",
+    "utils",
+    "utility"
+  ],
   "author": "Daniel Yin <yinfxs@gmail.com>",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yinfxs/weixin-utils/issues"
+  },
+  "homepage": "https://github.com/yinfxs/weixin-utils#readme",
   "dependencies": {
     "ioredis": "^3.2.2",
     "superagent": "^3.8.2"

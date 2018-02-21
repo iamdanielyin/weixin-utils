@@ -1,4 +1,4 @@
-# weixin-utils 
+# weixin-utils
 
 [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
@@ -13,7 +13,7 @@
 
 >工具库内部会对获取到的 `access_token` 和 `jsapi_ticket` 进行缓存（若配置了`redis`则缓存到Redis中，反之则缓存到内存中），过期将自动刷新，工作流程图如下所示：
 
-![Flow Chart](flow_chart.png)
+![Flow Chart](https://raw.githubusercontent.com/yinfxs/weixin-utils/master/flow_chart.png)
 
 ## Install
 
