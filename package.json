@@ -1,5 +1,5 @@
 {
-  "name": "wechat-utils",
+  "name": "weixin-utils",
   "version": "1.0.0",
   "description": "WeChat development tools module.",
   "main": "index.js",

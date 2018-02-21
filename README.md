@@ -1,6 +1,15 @@
-# WeChat-Utils
+# weixin-utils 
 
-WeChat development tools module.
+[![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+
+[npm-image]: https://img.shields.io/npm/v/weixin-utils.svg
+[npm-url]: https://npmjs.org/package/weixin-utils
+[downloads-image]: https://img.shields.io/npm/dm/weixin-utils.svg
+[downloads-url]: https://npmjs.org/package/weixin-utils
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
+
+### WeChat development tools module.
 
 >工具库内部会对获取到的 `access_token` 和 `jsapi_ticket` 进行缓存（若配置了`redis`则缓存到Redis中，反之则缓存到内存中），过期将自动刷新，工作流程图如下所示：
 
@@ -9,13 +18,13 @@ WeChat development tools module.
 ## Install
 
 ```sh
-npm install wechat-utils
+npm install weixin-utils
 ```
 
 ## Usage
 
 ```js
-const utils = require('wechat-utils');
+const utils = require('weixin-utils');
 // 注册配置
 utils.config({
   redis: 'redis://localhost:6379',
