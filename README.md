@@ -54,3 +54,7 @@ utils.access_token('myApp').then(access_token => console.log(access_token));
 #### `utils.jsapi_ticket(appKey)`
 
 获取`jsapi_ticket`，同样需要传入一个`appKey`，返回值也为一个`Promise`对象。
+
+#### `utils.signature(obj)`
+
+获取参数签名，传入一个`querystring`的参数对象，返回值为签名数据。
