@@ -164,7 +164,7 @@ utils.signature = (obj) => {
     if (!key || !obj[key]) return;
     result[key.toLowerCase()] = obj[key];
   }
-  const rawstr = qs.stringify(result, { encode: false });
+  const rawstr = qs.stringify(result, null, null, { encodeURIComponent: str => str });
   const md5sum = crypto.createHash('sha1');
   md5sum.update(rawstr, 'utf8');
   const signstr = md5sum.digest('hex');
